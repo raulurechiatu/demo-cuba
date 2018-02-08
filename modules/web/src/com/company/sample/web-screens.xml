@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<screen-config xmlns="http://schemas.haulmont.com/cuba/screens.xsd">
+    <include file="com/company/sample/screens.xml"/>
+    <screen id="sample$Order.browse"
+            template="com/company/sample/web/order/order-browse.xml"/>
+    <screen id="sample$Order.edit"
+            template="com/company/sample/web/order/order-edit.xml"/>
+    <screen id="sample$Customer.browse_1"
+            template="com/company/sample/web/ex1/customer/customer-browse.xml"/>
+    <screen id="sample$Customer.edit_1"
+            template="com/company/sample/web/ex1/customer/customer-edit.xml"/>
+    <screen id="sample$Customer.browse_2"
+            template="com/company/sample/web/ex2/customer/customer-browse.xml"/>
+    <screen id="sample$Customer.edit_2"
+            template="com/company/sample/web/ex2/customer/customer-edit.xml"/>
+    <screen id="sample$Customer.browse_3"
+            template="com/company/sample/web/ex3/customer/customer-browse.xml"/>
+    <screen id="sample$Customer.edit_3"
+            template="com/company/sample/web/ex3/customer/customer-edit.xml"/>
+    <screen id="sample$orderBrowseWithCustomers"
+            template="com/company/sample/web/ex4/order/order-browse-with-customers.xml"/>
+    <screen id="sample$Employee.browse"
+            template="com/company/sample/web/ex5/employee/employee-browse.xml"/>
+    <screen id="sample$Employee.edit"
+            template="com/company/sample/web/ex5/employee/employee-edit.xml"/>
+    <screen id="sample$userEdit"
+            template="com/company/sample/web/ex5/user/user-edit.xml"/>
+</screen-config>
